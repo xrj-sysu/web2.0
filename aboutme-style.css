@@ -1,0 +1,52 @@
+body {
+	background-color: #F5F5F5;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #acd1b2;
+}
+
+#outline {
+	text-align: center;
+}
+
+#left {
+	width: 45%;
+	float: left;
+}
+
+#right {
+	width: 45%;
+	float: right;
+}
+
+span {
+	color: #8B008B;
+}
+
+li {
+	font-family: Arial, serif;
+}
+
+a {
+	color: #FF7F50;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+p {
+	font-size: 16px;
+	font-family: Arial, Tahoma, serif;
+}
+
+p:first-letter {
+     font-size: 30px;
+};
+
