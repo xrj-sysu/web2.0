@@ -69,16 +69,6 @@ p {
 p:first-letter {
      font-size: 30px;
 }
-
-#footer > div > a > img {
-	border:1px solid blue;
-    width:200px;
-    height:200px;
-}
-.normal {
-	width: 50px;
-	height: 50px;
-}
 img {
 	height: 150px;
 	width: 200px;
