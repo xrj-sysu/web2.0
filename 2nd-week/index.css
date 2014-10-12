@@ -1,0 +1,73 @@
+body {
+	background-color: #b7d1c4;
+}
+h1 {
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #A4A400;
+}
+#navbar {
+	text-align: center;
+}
+#navbar a {
+	font-size: 20px;
+	text-decoration: underline;
+	color: blue;
+}
+p {
+	font-size: 20px;
+	font-family: Arial, Tahoma, serif;
+	font-style: italic;
+}
+audio, video {
+	margin-left: 530px;
+	margin-right: 500px;
+}
+#left {
+	text-align: center;
+	margin-left: 530px;
+	margin-right: 520px;
+}
+#right {
+	text-align: center;
+	background-color: red;
+	margin-left: 450px;
+	margin-right: 450px;
+}
+#footer {
+    text-align: center;
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+}
+a {
+	font-size: 25px;
+	color: #FF7F50;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline; 
+}
+img {
+	width: 450px;
+	height: 150px;
+}
+.contact {
+	height: 25px;
+	width: 25px;
+	box-shadow: none;
+}
+ul {
+	list-style-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+li {
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}

@@ -1,0 +1,44 @@
+/* Author: Xuruijia */
+/* This is my recipe.css in homework1*/
+h2 {
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	text-align: left;
+	font-size: 18pt;
+	text-decoration: underline;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+}
+body {
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+#header {
+	text-align: center;
+	font-size: 22pt;
+}
+a {
+	color: #A4A400;
+}
+div {
+	border-bottom-style: ridge;
+}
+p, li {
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+ul {
+	list-style-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+.user {
+	margin-left: 30pt;
+	margin-right: 250pt;
+	background-color: #FFFFC8;
+	font-style: italic;
+}
+.delete {
+	border-style: none;
+}
