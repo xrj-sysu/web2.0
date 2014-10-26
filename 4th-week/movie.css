@@ -1,0 +1,128 @@
+/*  Author: Rigel Hsu
+    Student ID: 13331302
+    Course: Web2.0 by pml
+    Brief description: This assignment tests the understanding of XHTML and CSS for layout, positioning and the CSS box model.
+*/
+
+body {
+	background-image: url("images/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+#banner {
+	background-image: url("images/bannerbackground.png");
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#banner img {
+	height: 50px;
+}
+
+h1 {
+	font-size: 24pt;
+	text-align: center;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#main {
+	width: 800px;
+	border: 4px gray solid;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left {
+	float: left;
+	width: 550px;
+}
+
+#rotten {
+	background-image: url("images/rottenbackground.png");
+	background-repeat: repeat-x;
+}
+
+#rotten img {
+	height: 83px;
+}
+
+#rating {
+	font-size: 8pt;
+	color: white;
+	vertical-align: 10px;
+}
+
+#badInfo {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+#column1, #column2 {
+	width: 47%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+.total {
+	margin-bottom: 3em;
+}
+
+.comment {
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px gray solid;
+	padding: 8px;
+}
+
+.comment img {
+	float: left;
+	margin-right: 5px;
+}
+
+.company {
+	font-style: italic;
+}
+
+.author img {
+	float: left;
+	margin-right: 5px;
+}
+
+#right {
+	float: right;
+	width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+dl {
+	padding: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1em;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+#link {
+	position: fixed;
+	right: 10%;
+	bottom: 5px;
+}
