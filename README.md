@@ -1,3 +1,4 @@
 web2.0
 ======
-Need to be concluded.
+week 1~4: focus on html and css
+
